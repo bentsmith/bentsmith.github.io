@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*body formatting */
+
+
+h1 {
+  text-align: center;
+}
+body {
+  background-color: #FFFFFF;
+  text-align: center;
+  text-decoration-color: #273746;
+  height: 100%; 
+  margin: 0;
+padding-bottom: 2.5rem; 
+position: relative;
+  min-height: 100vh;
+}
+html {
+	height: 100%;
+}
+a {
+  color: #273746;
+}
+
+/* header formatting  */
+div.header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sailaway.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	image-resolution: from-image;
+
+	
+}
+.header-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+li.header{
+		display: inline;
+	}
+	
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li.header a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: large;
+  padding: 15px 35px;
+  text-decoration: none;
+  float: left;
+  margin-left: 15%;
+}
+
+/* Change the link color to black on hover */
+li.header a:hover {
+  text-decoration-color: aqua;
+}
+	
+
+div.body {
+	margin-top: 1%;
+}
+/* content boxes */
+
+.left {
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.right {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
