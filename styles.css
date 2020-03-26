@@ -34,7 +34,6 @@ div.header {
 	background-size: cover;
 	position: relative;
 	image-resolution: from-image;
-
 	
 }
 .header-text{
@@ -88,7 +87,12 @@ li.header a {
 li.header a:hover {
   text-decoration-color: aqua;
 }
-	
+
+div.container {
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 2%;
+}	
 
 div.body {
 	margin-top: 1%;
