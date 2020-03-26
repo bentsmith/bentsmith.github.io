@@ -57,6 +57,21 @@ ul.header {
   overflow: hidden;
 }
 
+.navigation ul li.active a {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+}
+
+.navigation ul li a:link,
+.navigation ul li a:visited,
+.navigation ul li a:active,
+.navigation ul li a:hover,
+.navigation ul li a:focus {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
 
 li.header a {
   display: block;
