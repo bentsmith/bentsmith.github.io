@@ -17,8 +17,9 @@ body {
   text-decoration-color: #273746;
   height: 100%; 
   margin: 0;
-padding-bottom: 2.5rem; 
-position: relative;
+  padding-bottom: 2.5rem; 
+  /*position: relative;*/
+  padding-top:4em;
   min-height: 100vh;
 }
 html {
