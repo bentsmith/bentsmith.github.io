@@ -8,6 +8,9 @@
 h1 {
   text-align: center;
 }
+p {
+  letter-spacing: .10em;
+}
 body {
   background-color: #FFFFFF;
   text-align: center;
@@ -28,7 +31,7 @@ a {
 /* header formatting  */
 div.header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sailaway.jpg");
-	height: 50%;
+	height: 95%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
