@@ -5,9 +5,52 @@
         <title>Benjamin Smith</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./styles.css">
+        <script type="text/javascript">
+        	var sliderVal = document.getElementById("customRange").value;
+        	var output = document.getElementById("sliderOutput");
+        	var about = document.getElementById("about");
+        	var resume = document.getElementById("resume");
+        	var projects = document.getElementById("projects");
+        	var contact = document.getElementById("contact");
+        	var top = document.getElementById("top");
+        	sliderval.onInput = function () {
+        		if (slider.value == 0) {
+        			about.scrollIntoView();
+        		}
+        		else if (slider.value == 1) {
+        			resume.scrollIntoView();
+        		}
+        		else if (slider.value == 2) {
+        			projects.scrollIntoView();
+        		}
+        		else if (slider.value == 3) {
+        			contact.scrollIntoView();
+        		}
+        		else {
+        			top.scrollIntoView();
+        		}
+        	}
+        	function sliderChange () {
+        		if (slider.value == 0) {
+        			about.scrollIntoView();
+        		}
+        		else if (slider.value == 1) {
+        			resume.scrollIntoView();
+        		}
+        		else if (slider.value == 2) {
+        			projects.scrollIntoView();
+        		}
+        		else if (slider.value == 3) {
+        			contact.scrollIntoView();
+        		}
+        		else {
+        			top.scrollIntoView();
+        		}
+        	}
+        </script>
     </head>
     <body data-spy="scroll">
-        <a name="top"></a>
+        <a name="top" id="top"></a>
         <div class="header">
             <div class="header-text">
                 <h1>Benjamin Smith</h1>
@@ -32,6 +75,11 @@
             <div class="container">
                 <h4 id="about"><em>About Me</em></h4>
             </div>
+            <div class="container">
+            	<label for="customRange">Select your page</label>
+            	<input type="range" class="custom-range" min="0" max="4" id="customRange" oninput="">
+            </div>
+
             <!-- About Container -->
             <div class="container">
                 <p>I am currently a Senior studying Information Technology and Cyber Security at the University of Southern Maine. I will be graduating in the Spring of 2020. My interests involve cars, guitars, boats, and computers.</p>

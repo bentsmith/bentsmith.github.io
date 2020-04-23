@@ -28,6 +28,19 @@ a {
   color: #273746;
 }
 
+.custom-Range {
+  height: 15px;
+  border-radius: 5px;
+}
+.custom-Range::-webkit-slider-thumb {
+  height: 25px;
+  border-radius: 50%;
+}
+.custom-Range::-moz-range-thumb {
+  height: 25px;
+  border-radius: 50%;
+}
+
 /* header formatting  */
 div.header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sailaway.jpg");
