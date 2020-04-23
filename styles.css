@@ -43,7 +43,7 @@ a {
 }
 
 /* header formatting  */
-div.header {
+header.header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sailaway.jpg");
 	height: 95%;
 	background-position: center;

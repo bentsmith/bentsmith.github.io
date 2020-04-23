@@ -35,7 +35,7 @@ $(function(){
 
 	function navigate(hash){
 		$("html, body").animate({
-		    scrollTop: ($(hash).offset().top - navOffset < 0)? 0 : $(hash).offset().top - navOffset;
+		   scrollTop: ($(hash).offset().top - navOffset < 0)? 0 : $(hash).offset().top - navOffset
 		 }, 500);
 
 		window.location.replace(window.location + hash) 
